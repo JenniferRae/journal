@@ -44,14 +44,14 @@ section {
 .content {
 	float: left;
 	width: 65%;
-	/*float: left;*/
 }
 
 .footer {
-	border: 1px solid #000;
+	/*border: 1px solid #000;*/
 	margin: 5px;
 	padding: 10px;
 	overflow: auto;
+	width: 90%;
 }
 
 .end {
