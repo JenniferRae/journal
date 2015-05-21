@@ -1,28 +1,59 @@
-/********* PAGE SETUP ***********/
+/***************** HEADER *********************/
 
-.main-header {
+
+.main-header {      /********** all of green **************/
 	border: 1px solid #000;
 	background-color: lightgreen;
+	
+	/*padding: 10px;*/
+}
+
+.h1 {           /************** MY WEB FOUNDATIONS JOURNAL ******************/
+	border: 1px solid #000;
+	float: left;
+	font-size: 1em;
 	margin: 5px;
-	padding: 10px;
+	width: 15em;
+}
+
+
+.main-paragraph {           /******************* EMAIL | GITHUB *******************/
+	border: 1px solid #000;
+	/*overflow: auto;        ******* EVERYTHING FLOWS LEFT ****/
+	/*float: left;      /***** TRY SOMETHING ELSE *****
+	/*width: 125px;*/
+	height: 20%;
+	margin: 10px;
+	width: 10em;
 
 }
 
-.topL {
-	border: 1px solid #000;
+
+/***************** TOP LEFT NAV *********************/
+
+nav {
+	/*border: 1px solid #000;*/
 	background-color: lightblue;
 	float: left;
 	margin: 5px;
 	padding: 10px;
-	width: 25%;
+	width: 30%;
+	min-width: 300px;
+
 }
+
+
+/***************** SECTION *********************/
 
 section {
+	min-width: 60%;
 	overflow: auto;
+
 }
 
+
 .article1 {
-	border: 1px solid #000;
+	/*border: 1px solid #000;*/
 	background-color: pink;
 	margin: 5px;
 	padding: 10px;
@@ -30,7 +61,7 @@ section {
 }
 
 .article2 {
-	border: 1px solid #000;
+	/*border: 1px solid #000;*/
 	background-color: mediumorchid;
 	margin: 5px;
 	padding: 10px;
@@ -51,8 +82,11 @@ section {
 	width: 90%;
 }
 
+
+/************** BOTTOM FOOTER ****************/
+
 .end {
-	border: 1px solid #000;
+	/*border: 1px solid #000;*/
 	background-color: orange;
 	margin: 5px;
 	padding: 10px;
@@ -61,7 +95,7 @@ section {
 
 
 
-/******** PICTURES ********/
+/******** PICTURES *******/
 
 .web-design {
 	min-width: 25%;
@@ -79,8 +113,15 @@ img.large {
 }
 
 
+/********** PAGE FLOAT **************/
 
+nav {
+	float: left;
+}
 
+section {
+	
+}
 
 
 
