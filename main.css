@@ -1,4 +1,4 @@
-/*********  ************/
+/********* PAGE SETUP ***********/
 
 .main-header {
 	border: 1px solid #000;
@@ -16,8 +16,6 @@
 	padding: 10px;
 	width: 25%;
 }
-
-
 
 section {
 	overflow: auto;
@@ -37,7 +35,6 @@ section {
 	margin: 5px;
 	padding: 10px;
 	width: auto;  
-	
 	
 }
 
@@ -64,7 +61,7 @@ section {
 
 
 
-******** PICTURES ********
+/******** PICTURES ********/
 
 .web-design {
 	min-width: 25%;
