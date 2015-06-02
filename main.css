@@ -9,16 +9,18 @@
 }
 
 .h1 {           /************** MY WEB FOUNDATIONS JOURNAL ******************/
-	border: 1px solid #000;
+	/*border: 1px solid #000;*/
 	float: left;
-	font-size: 1em;
+	font-size: 1.75em;
+	font-weight: normal;
+	line-height: 0.8em;
 	margin: 5px;
 	width: 15em;
 }
 
 
 .main-paragraph {           /******************* EMAIL | GITHUB *******************/
-	border: 1px solid #000;
+	/*border: 1px solid #000;*/
 	/*overflow: auto;        ******* EVERYTHING FLOWS LEFT ****/
 	/*float: left;      /***** TRY SOMETHING ELSE *****
 	/*width: 125px;*/
@@ -29,7 +31,21 @@
 }
 
 
-/***************** TOP LEFT NAV *********************/
+/******************** FONTS ********************/
+
+h1{
+	font-size: 1.75em;
+	font-weight: normal;
+	line-height: .08em;
+}
+
+h2 {
+	font-size: .75em;
+	margin: -5px 0 0;
+	font-weight: normal;
+}
+
+/***************** TOP LEFT NAV ******************/
 
 nav {
 	/*border: 1px solid #000;*/
@@ -46,7 +62,7 @@ nav {
 /***************** SECTION *********************/
 
 section {
-	min-width: 60%;
+	min-width: 50%;
 	overflow: auto;
 
 }
