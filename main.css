@@ -1,39 +1,58 @@
 /***************** HEADER *********************/
 
+.main-header { /*border: 1px solid black;*/
 
-.main-header {      /********** all of green **************/
-	border: 1px solid #000;
-	background-color: lightgreen;
-	
-	/*padding: 10px;*/
+	/*background-image: url(header-bg.jpg); */
+	background-repeat: no-repeat;	
+	max-height: 153px;
+	padding-bottom: 1%
 }
 
-.h1 {           /************** MY WEB FOUNDATIONS JOURNAL ******************/
-	/*border: 1px solid #000;*/
-	float: left;
-	font-size: 1.75em;
-	font-weight: normal;
-	line-height: 0.8em;
-	margin: 5px;
-	width: 15em;
+#title { /*border: 1px solid green;
+*/
+	color: white;
+	font-size: 3em;
+	font-family: 'Dancing Script';
+	font-weight: 50%;
+	margin: 1%;
+	text-align: center;
+	word-spacing: 0.3em;
 }
 
-
-.main-paragraph {           /******************* EMAIL | GITHUB *******************/
-	/*border: 1px solid #000;*/
-	/*overflow: auto;        ******* EVERYTHING FLOWS LEFT ****/
-	/*float: left;      /***** TRY SOMETHING ELSE *****
-	/*width: 125px;*/
-	height: 20%;
-	margin: 10px;
-	width: 10em;
-
+a:link {
+	color: black;
 }
 
+a:hover {
+	color: white;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+header ul {
+	text-align: center;
+}
+
+header li {border: 1px solid red;
+
+	display: inline-block;
+	list-style-type: none;
+	margin-right: 5px;
+	max-width: 75px;
+	word-spacing: 0.2em;
+}
+
+body {
+		/*background-image: url(blueBackground.jpg);*/
+	background-color: forestgreen;
+}
 
 /******************** FONTS ********************/
 
-h1{
+/*h1{
 	font-size: 1.75em;
 	font-weight: normal;
 	line-height: .08em;
@@ -43,18 +62,19 @@ h2 {
 	font-size: .75em;
 	margin: -5px 0 0;
 	font-weight: normal;
-}
+}*/
 
 /***************** TOP LEFT NAV ******************/
 
-nav {
+.body {
 	/*border: 1px solid #000;*/
-	background-color: lightblue;
+	/*background-color: lightblue;*/
 	float: left;
 	margin: 5px;
 	padding: 10px;
 	width: 30%;
 	min-width: 300px;
+
 
 }
 
@@ -70,7 +90,7 @@ section {
 
 .article1 {
 	/*border: 1px solid #000;*/
-	background-color: pink;
+	/*background-color: pink;*/
 	margin: 5px;
 	padding: 10px;
 	width: auto;
@@ -78,7 +98,7 @@ section {
 
 .article2 {
 	/*border: 1px solid #000;*/
-	background-color: mediumorchid;
+	/*background-color: mediumorchid;*/
 	margin: 5px;
 	padding: 10px;
 	width: auto;  
@@ -103,7 +123,7 @@ section {
 
 .end {
 	/*border: 1px solid #000;*/
-	background-color: orange;
+	/*background-color: orange;*/
 	margin: 5px;
 	padding: 10px;
 
@@ -118,8 +138,11 @@ section {
 }
 
 img.small {
-	width: 100%;
+	-webkit-box-shadow: inset 3px 0px 38px 27px rgba(34,139,34,1);
+	-moz-box-shadow: inset 3px 0px 38px 27px rgba(34,139,34,1);
+	box-shadow: inset 3px 0px 38px 27px rgba(34,139,34,1);	
 	height: 100%;
+	width: 100%;
 }
 
 img.large {
@@ -128,16 +151,8 @@ img.large {
 	height: 30%;
 }
 
+n
 
-/********** PAGE FLOAT **************/
-
-nav {
-	float: left;
-}
-
-section {
-	
-}
 
 
 
